@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script displays Best School 10 times
+# Initialize counter
+n=0
+# Using the while loop
+while [ $n -lt 10 ]
+do
+echo "Best School"
+#increment
+n=$((n + 1))
+done
