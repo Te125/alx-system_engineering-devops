@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# This script that displays numbers from 1 to 20 and
+# displays loopas acording to iterations
+n=1
+# Using while loop and case statement
+while [ $n -le 20 ]
+do
+case $n in
+4) echo "4 
+bad luck from China"
+;;
+9) echo "9 
+bad luck from Japan"
+;;
+17) echo "17 
+bad luck from Italy"
+;;
+*) echo $n
+;;
+esac
+# Increment
+n=$((n +1))
+done

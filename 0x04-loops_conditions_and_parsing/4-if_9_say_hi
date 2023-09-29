@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This script displays best school 10 times  but for the 9th interaton
+# Displays best school and then hi on a new line
+# Initialize counter
+n=1
+# Using while loop and if statement
+while [ $n -lt 10 ]
+do
+if [ $n -eq 8 ]
+then
+echo "Best School"
+echo "Hi"
+else
+echo "Best School"
+fi
+# Increment
+n=$((n + 1))
+done
